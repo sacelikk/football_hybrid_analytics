@@ -2,6 +2,10 @@
 
 A football performance analytics engine integrating **High-Intensity Running (HIR/HSR)** physical metrics with **tactical pressing and turnover events** across the Austrian Bundesliga.
 
+🔗 **Live Interactive App:** [footballhybridanalytics.streamlit.app](https://footballhybridanalytics-96yzzwgqwxbrxgunu74pat.streamlit.app/)
+
+---
+
 ## 📌 Methodology & Concept
 Traditional metrics evaluate physical distance and event volume in silos. This project implements a **Hybrid Pressing Efficiency (HPE)** framework:
 - **Attacking 3rd Pressures (Weight: 1.8x)**: High-danger zone disruption.
@@ -22,6 +26,8 @@ Traditional metrics evaluate physical distance and event volume in silos. This p
 - **Matplotlib** (Visualizations)
 
 ## 💻 Local Setup
-
+```bash
+git clone [https://github.com/sacelikk/football_hybrid_analytics.git](https://github.com/sacelikk/football_hybrid_analytics.git)
+cd football_hybrid_analytics
 pip install -r requirements.txt
 streamlit run app.py
