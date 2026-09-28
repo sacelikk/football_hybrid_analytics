@@ -22,6 +22,6 @@ Traditional metrics evaluate physical distance and event volume in silos. This p
 - **Matplotlib** (Visualizations)
 
 ## 💻 Local Setup
-`ash
+
 pip install -r requirements.txt
 streamlit run app.py
